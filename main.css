@@ -7,7 +7,7 @@
 
                      /*Header Start*/
 .bg{
-  background-image: url('assets/img/bg.JPG');
+  background-image: url('assets/img/hero.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -18,5 +18,14 @@
   background-color: rgba(0,0,0,0.7);
   height: 100vh;
   width: auto;
+}
+.content_header{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.content_header h1{
+   color: #fff;
 }
                     /*Header End*/
