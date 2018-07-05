@@ -1,0 +1,22 @@
+                 /*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+                     /*Header Start*/
+.bg{
+  background-image: url('assets/img/bg.JPG');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+}
+.bg_overlay{
+  background-color: rgba(0,0,0,0.7);
+  height: 100vh;
+  width: auto;
+}
+                    /*Header End*/
