@@ -29,3 +29,288 @@
    color: #fff;
 }
                     /*Header End*/
+
+
+
+                    /*About Section Start*/
+                  #header-border-bottom{
+                    border-top: 20px solid #df473e;
+                  }
+                  .about_content h4{
+                    font-size: 40px;
+                    font-weight: 400;
+                    color: #4d4d4d;
+                  }
+                  .about_content p{
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    color: #4d4d4d;
+                    font-weight: 400;
+                  }
+                  #p_change{
+                    position: absolute;
+                    left: 50%
+                    transform:translate(-50%);
+                    font-family: Pacifico;
+                    font-size: 20px;
+                  }
+                  .responsive_img{
+                    height:600px ;
+                    width: 600px ;
+                  }
+
+                  .border-bottom-about{
+                    border: 5px solid #df473e;
+                  }
+                  #font-awesome-logo{
+                    color: #df473e;
+                  }
+                  .content_skills h3{
+                    font-size: 25px;
+                    color: #4d4d4d;
+                  }
+                  .content_skills p{
+                  width: 309px;
+                  padding-bottom: 15px;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 25px;
+                  color: #4d4d4d;
+                  }
+                  #title_skills{
+                    font-family: Bubblegum Sans;
+                    font-size: 40px;
+                    color: #df473e;
+                  }
+                  #small-border{
+                     width:100px;
+                     border-top:5px solid #df473e;
+                     height:50px;
+                  }
+                  @media only screen and (max-width: 1000px) {
+                      #hidden-on-small{
+                        display: none;
+                     }
+                  }
+
+                  @media only screen and (max-width: 1000px){
+                      .about_content h4{
+                        font-size: 30px;;
+                     }
+                  }
+                            /*sliding_Column Start*/
+                  .corousel-cell{
+                    height: auto;
+                    width: 100% !important;
+                  }
+                  .content_about p{
+                    font-family: Pacifico;
+                    font-size: 20px;
+                  }
+                  #about_text{
+                    font-family: Bubblegum Sans;
+                    color: #00e6e6;
+                    font-size: 20px;
+                  }
+
+                   .icon{
+                     display: inline-grid;
+                     align-items: center;
+                     text-decoration: none !important;
+                     text-align: center;
+                     font-size: 25px;
+                     color: #ffffff;
+                     height: 40px;
+                     width: 40px;
+                     border-radius: 50%;
+                     background-color: #fed136;
+                     -webkit-transition: all .3s;
+                   -moz-transition: all .3s;
+                   transition: all .3s;
+                   }
+
+                   .icon:hover{background-color: #00e6e6;
+                     color: #fff;
+                    transform: rotate(360deg);
+                    -webkit-transition: all .3s;
+                  -moz-transition: all .3s;
+                  transition: all .3s;
+                  }
+
+                  @media only screen and (max-width: 1000px) {
+                      #about_text{
+                        font-size: 18px;
+                     }
+                  }
+
+                  @media only screen and (max-width: 1000px){
+                      #resize-on-small{
+                        height: 300px;
+                        width: 300px;
+                     }
+                  }
+
+                           /*sliding_Column Stop*/
+
+                            /*Testimonials_slider_Start*/
+                  #testimonials h2{
+                    font-family: Bubblegum Sans;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #df473e;
+                  }
+
+                  .content_slide img{
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 50%;
+                  }
+                  .content_slide h3{
+                    font-family: Montserrat;
+                    font-weight: 700;
+                    color: #4d4d4d;
+                  }
+                  .content_slide p{
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 18px;
+                    width: 600px;
+                  }
+                  @media only screen and (max-width: 1000px) {
+                      .content_slide p{
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        font-size: 18px;
+                        width: 300px;
+                     }
+                  }
+
+                           /*Testimonials_slider_End*/
+
+                                  /*Quote Start*/
+
+                                .quote{
+                                  background-color: #df473e;
+                                  background-attachment: fixed;
+                                  opacity: 0.85;
+                                  height: 30vh;
+                                  width: 100%;
+                                }
+                               #pencil-icon{
+                                 font-size: 40px;
+                               }
+                               .content-quote p{
+                                 font-size: 25px;
+                                 color: #ffffffff;
+                               }
+                               @media only screen and (max-width: 1000px) {
+                                   .quote {
+                                     height: 40vh;
+                                  }
+                               }
+
+                               @media only screen and (max-width: 1000px){
+                                   .content-quote p{
+                                     font-size: 18px;
+                                  }
+                               }
+
+                                  /*Quote ENd*/
+
+                                 /*Contact Start*/
+                                 .contact .form input, .contact .form textarea {
+                                   width: 100%;
+                                   padding: 10px;
+                                   border: 0;
+                                   background: #f7f7f7;
+                                   border-radius: 5px;
+                                 }
+                                 .contact .form textarea {
+                                   height: 160px;
+                                   max-height: 160px;
+                                   max-width: 100%;
+                                 }
+                                 .contact .form .info {
+                                   float: left;
+                                   margin-top: 10px;
+                                 }
+                                 .contact .form .info span {
+                                   color: #444;
+                                   font-size: 12px;
+                                   font-weight: 500;
+                                   margin-right: 30px;
+                                 }
+                                 .contact .form .info span:last-child {
+                                   margin-right: 0;
+                                 }
+                                 .contact .form .btn{
+                                   float: right;
+                                   overflow: hidden;
+                                   cursor: pointer;
+                                   margin: 0;
+                                 }
+
+                                 .contact .form .form-group {
+                                   position: relative;
+                                 }
+                                 .contact .form .help-block li {
+                                   color: #ce7373;
+                                   font-size: 11px;
+                                   font-weight: 500;
+                                   position: absolute;
+                                   top: 10px;
+                                   right: 10px;
+                                 }
+                                 .section-head h4{
+                                   font-size: 30px;
+                                   font-family: Bubblegum Sans;
+                                   text-transform: uppercase;
+                                   font-weight: 700;
+                                   color: #df473e;
+                                 }
+
+                                 .section-head h6{
+                                   font-family: Bubblegum Sans;
+                                   text-transform: uppercase;
+                                   font-weight: 700;
+                                   color: black;
+                                 }
+
+                                 /*Contact End*/
+
+                                /*Available-on-work_start*/
+
+                            #work-img{
+                              text-decoration: none;
+                              text-decoration-color: none;
+                              padding-right: 20px;
+                            }
+
+                            @media only screen and (max-width: 1000px){
+                                .available-work-hidden-small{
+                                  display: none;
+                               }
+                            }
+                            @media only screen and (min-width: 1000px) {
+                                .available-work-hidden-large{
+                                  display: none;
+                               }
+                            }
+
+                          #fiverr-img-text{
+                            height: 60px;
+                          }
+                                /*Available-on-work_End*/
+
+                           /*Footer Start*/
+                      footer{
+                        background-color: #82f2c7;
+                      }
+                      .copyright{
+                        font-size: ;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        color: black;
+                      }
+
+                           /*Footer End*/
