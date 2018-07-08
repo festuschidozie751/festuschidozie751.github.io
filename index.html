@@ -22,10 +22,13 @@
 <body>
 
 <header>
+  <img class="navbar-brand" id="logo" src="assets/img/logo.png" alt="">
+  <h2 class="navbar-brand" id="logo-text">Aryan Gupta</h2>
   <div class="bg">
     <div class="bg_overlay">
       <div class="content_header">
-        <h1>hello</h1>
+        <h1>Hello! I am <span id="hero-text">Aryan Gupta</span></h1>
+        <p id="text-typeit"></p>
       </div>
     </div>
   </div>
@@ -88,7 +91,7 @@
            </div>
          </div>
          <div id="resize-on-small" class="col-lg-6">
-         <img style="height: 400px; width: 400px;" class="bg_about" src="assets/img/iPad Pro 9.7 White.png" alt="">
+         <img style="height: 350px; width: 400px;" class="bg_about center-block" src="assets/img/ui4.jpg" alt="">
          </div>
        </div>
      </div>
@@ -98,7 +101,7 @@
    <div class="container">
      <div class="row">
        <div class="col-lg-6">
-         <img style="height: 300px; width: 300px;" src="assets/img/illustration_23.png" alt="">
+         <img style="height: 300px; width: 500px;" class="img-responsive" src="assets/img/ui2.jpg" alt="">
        </div>
        <div class="col-lg-4">
          <h2 id="hero_name" class="text-center"><u>Hobbies</u></h2>
@@ -433,14 +436,33 @@
        </div>
 
      </footer>
-<script type="text/javascript">AOS.init({duration:1600,})</script>
 
+<script type="text/javascript">AOS.init({duration:1000,})</script>
 <!--Linking External JavaScript-->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrapvalidator.min.js"></script>
 <script src="js/flickity-docs.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/typeit.min.js"></script>
+<script type="text/javascript">
+new TypeIt('#text-typeit', {
+    strings: [ "UI/UX Designer", "Web Developer", "programmer"],
+    speed: 80,
+    breakLines: false,
+    autoStart: false,
+    cursor: false,
+    loop: true,
+    startDelay: 1000,
+    nextStringDelay: 2000,
+});
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+</script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@
 
                      /*Header Start*/
 .bg{
-  background-image: url('assets/img/hero.jpg');
+  background-image: url('assets/img/bg.JPG');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -15,18 +15,41 @@
   width: auto;
 }
 .bg_overlay{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.8);
   height: 100vh;
   width: auto;
 }
 .content_header{
   position: absolute;
   top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  left:10%;
+  transform: translate(-10%,-50%);
 }
 .content_header h1{
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
    color: #fff;
+}
+#hero-text{
+  font-family: Bubblegum Sans;
+  font-size: 25px;
+  color: #df473e;
+
+}
+#logo{
+  height: 100px;
+  width: 100px;
+}
+#logo-text{
+  font-size: 25px;
+  font-family: Bubblegum Sans;
+  color: #df473e;
+}
+#text-typeit{
+  font-size: 22px;
+  font-family: Kaushan script;
+  color: #fed136;
 }
                     /*Header End*/
 
@@ -200,12 +223,13 @@
                                  font-size: 40px;
                                }
                                .content-quote p{
+                                 font-family: Montserrat;
                                  font-size: 25px;
                                  color: #ffffffff;
                                }
                                @media only screen and (max-width: 1000px) {
                                    .quote {
-                                     height: 40vh;
+                                     height: 42vh;
                                   }
                                }
 
