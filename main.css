@@ -7,10 +7,10 @@
 
                      /*Header Start*/
 .bg{
-  background-image: url('assets/img/bg.JPG');
-  background-position: center;
+  background-image: url('assets/img/Festus1.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 100vh;
   width: auto;
 }
